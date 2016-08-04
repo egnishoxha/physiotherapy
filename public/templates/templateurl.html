@@ -1,0 +1,11 @@
+<div class="slider" layout="column">
+	<div flex class="slide" ng-repeat="image in images" ng-show="image.visible">
+		<img ng-src="{{image.src}}"  height="450" width="1129"/>
+	</div>
+	<div flex class="arrow-left">
+		<a href="" ng-click="prev()"><img src="./public/img/left-arrow.png"/></a> 
+	</div>
+	<div flex class="arrow-right">
+		<a href="" ng-click="next()"><img src="./public/img/right-arrow.png"/></a>
+	</div>
+</div>
