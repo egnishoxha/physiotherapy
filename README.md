@@ -1,4 +1,4 @@
 # physiotherapy
 An AngularJS and Angular Material template for a physiotherapy clinics.
-To be extended with new features.
+To be extended with new features. Code enhencement in progress.
 
